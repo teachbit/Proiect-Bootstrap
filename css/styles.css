@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+/**********Main***********/
+.main {
+  background: #000 url(../images/design-interior.jpg);
+  color: #fff;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #000000ad;
+  position: absolute;
+}
+
+.container {
+  z-index: 2;
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: #1b3863;
+  border-radius: 35px;
+  border: 2px solid #1b3863;
+  padding: 10px 40px 10px 40px;
+  margin-top: 30px;
+}
+
+/*********Content**********/
+.content-details h1 {
+  color: #1b3863;
+}
+
+.image-spatiuderelaxare {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  border-radius: 100px;
+  padding: 60px;
+}
+
+.content-details {
+  padding: 150px 50px 0 50px;
+  text-align: left;
+}
+
+.content-details-details {
+  padding-right: 0;
+}
+
+/***********Sevicii***********/
+.services-details h3 {
+  color: #1b3863;
+  margin-top: 90px;
+}
+
+.services-details h1 {
+  color: #1b3863;
+  margin-top: 90px;
+}
+
+p {
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.services-details{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/************About*************/
+.about-us{
+    background: #000 url(../images/fundalabout.jpg);
+    color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/***********Contact***********/
+.footer{
+  border-top: 1px solid #e5e5e5;
+}
